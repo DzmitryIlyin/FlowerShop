@@ -33,16 +33,22 @@ public class FlowerShop {
             b1.addFlower(tulip);
             b1.addFlower(decorative);
             b1.addFlower(lilac);
+            
+//            Exception to handle case when no slots available in the bucket
 
         } catch (NoMoreSlotsException e) {
             System.out.println("Не возможно положить этот цветок "+e.getMessage());
         }
+        
+//          Exception to handle case when trying to remove not existing Flower
 
         try {
             b1.removeFlower(tulip);
         } catch (NoSuchFlowerException e) {
             System.out.println("Не возможно удалить этот цветок  "+e.getMessage());
         }
+        
+//          Exception to handle case when trying to remove not existing Flower by its number
 
         try {
             b1.removeFlowerByIndex("0");
