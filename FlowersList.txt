@@ -1,0 +1,4 @@
+Rose,11,10,red,10,0
+Tulip,21,20,blue,20,0
+Lilac,10,11,yellow,0,60
+Decorative,10,50,0,0,0

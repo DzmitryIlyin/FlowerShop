@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Flowers>
+	<Flower>
+		<FlowerName>Rose</FlowerName>
+		<FlowerSize>20</FlowerSize>
+		<FlowerPrice>10</FlowerPrice>
+		<color>red</color>
+		<petal>5</petal>
+	</Flower>
+	<Flower>
+		<FlowerName>Tulip</FlowerName>
+		<FlowerSize>30</FlowerSize>
+		<FlowerPrice>20</FlowerPrice>
+		<color>blue</color>
+		<petal>10</petal>
+	</Flower>
+	<Flower>
+		<FlowerName>Decorative</FlowerName>
+		<FlowerSize>30</FlowerSize>
+		<FlowerPrice>20</FlowerPrice>
+	</Flower>
+	<Flower>
+		<FlowerName>Lilac</FlowerName>
+		<FlowerSize>30</FlowerSize>
+		<FlowerPrice>40</FlowerPrice>
+		<color>yellow</color>
+		<density>50</density>
+	</Flower>
+</Flowers>
